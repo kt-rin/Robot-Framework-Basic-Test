@@ -2,16 +2,19 @@
 Library    Selenium2Library
 #Test Teardown    Close Browser
 
+
 *** Variables ***
 ${browser}    chrome
 ${url}    https://www.google.co.th/
 ${keywords_search}      Robot Framework
+
 
 *** Test Cases***
 Search
     Open Chrome Browser 
     Search By Keywords
     Result
+
 
 *** Keywords ***
 Open Chrome Browser 
